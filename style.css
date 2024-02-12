@@ -1131,3 +1131,21 @@ body {
   padding-left: 10px;
   padding-right: 10px;
 }
+@media screen and (max-width: 768px) {
+  .hero-title h2 {
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    font-family: Kurri Island PERSONAL;
+    -webkit-text-stroke-color: transparent;
+    -webkit-text-stroke-width: 15px;
+    -webkit-text-fill-color: #fff;
+    background-clip: text;
+    background-image: linear-gradient(135deg, #872cff 0%, #6dfb7d 100.76%);
+  }
+}
